@@ -26,7 +26,7 @@ class StudentAgent(Agent):
         super().__init__()
         self.name = "gpt_greedy_corners_agent"
 
-    def step(self, board, color,opponent):
+    def step(self, board, color, opponent):
         """
         Choose a move based on an improved heuristic logic.
 
